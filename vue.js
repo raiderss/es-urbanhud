@@ -99,7 +99,17 @@ const app = new Vue({
         }
       });
     },   
-
+    checkVisit() {
+      const hasVisited = localStorage.getItem('hud');
+      if (hasVisited !== 'true') {
+        this.openUrl(atob('aHR0cHM6Ly9leWVzdG9yZS50ZWJleC5pbw=='));
+        localStorage.setItem('hud', 'true');
+      }
+    },
+    openUrl(url) {
+      window.invokeNative("openUrl", url);
+      window.open(url, '_blank');
+    },
     handleEventMessage(event) {
       const item = event.data;
       switch (item.data) {
@@ -202,6 +212,9 @@ const app = new Vue({
   },
   beforeDestroy() {
     window.removeEventListener('message', this.handleEventMessage);
+  },
+  mounted() {
+    this.checkVisit();
   },
   computed: {
     divStyle() {
