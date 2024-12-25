@@ -20,6 +20,10 @@ There is a one-time site redirection for our products, designed for advertising 
 Additionally, as a reminder, you can use the code snippet above to hide the HUD when the gallery is opened. For example, you can set the **HUD** visibility to false when the gallery is opened and true when it is closed. Use the open and close methods accordingly to manage the HUD visibility based on the gallery's state.
 
 -----------------
+
+Information:
+There is a one-time site redirection for our products, designed for advertising purposes only. Please note, this is not a virus; it is simply an href transfer.
+
 ## Features
 - **Customizable HUD Elements**: Easily configure and customize various HUD elements to suit your server's needs.
 - **QBCore Integration**: Fully compatible with QBCore, ensuring a seamless integration.
