@@ -34,7 +34,6 @@ There is a one-time site redirection for our products, designed for advertising 
 2. **Extract** the files into your FiveM resources folder.
 3. **Add** `ensure es-urbanhud` to your `server.cfg` file.
 4. **Restart** your FiveM server to apply the changes.
-5. 
 ## Tebex Store
 Explore premium features and support our development by visiting our Tebex store:
 [![Tebex](https://img.shields.io/badge/Tebex-EYE%20STORE-00A2FF.svg)](https://eyestore.tebex.io/)
